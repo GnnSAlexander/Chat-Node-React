@@ -1,0 +1,26 @@
+header{
+  border-top: 5px solid rgb(255,5,5);
+  border-image: linear-gradient(0deg, rgba(255,5,5,1) 23%, rgba(0,50,255,1) 23%, rgba(0,50,255,1) 55%, rgba(251,255,0,1) 56%) 100% 0 0 0/14px 0 0 0;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  left: 0;
+  top: 0;
+  position: fixed;
+  width: 100vw;
+  z-index: 2;
+}
+.home{
+  color:white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.home h1{
+  margin: 0 auto;
+  text-align: center;
+  
+}
